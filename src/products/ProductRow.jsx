@@ -12,11 +12,11 @@ const ProductRow = ({ product, selectedProducts, handleSelect }) => {
     <tr
       className={`${
         isSelected ? "bg-gray-100" : ""
-      } hover:bg-gray-100 transition-colors duration-500`}
+      } hover:bg-gray-100 transition-colors duration-500 `}
       aria-selected={isSelected}
     >
       <td className="px-3 py-3 border-t border-b border-r">
-        <div className="flex items-center justify-between w-full">
+        <div className="flex items-center justify-between w-full gap-10 md:gap-0">
           {/* Checkbox and product info */}
           <div className="flex items-center space-x-2">
             <input
@@ -33,7 +33,7 @@ const ProductRow = ({ product, selectedProducts, handleSelect }) => {
 
           {/* Messages icon and count */}
           {product.messages !== null && (
-            <div className="inline-flex items-center gap-1">
+            <div className="inline-flex items-center md:gap-2">
               <LuMessagesSquare className="text-gray-500" />
               <span className="min-w-[0.7rem] text-gray-500">
                 {product.messages || ""}
