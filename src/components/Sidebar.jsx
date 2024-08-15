@@ -5,7 +5,7 @@ import { LiaArrowsAltHSolid } from "react-icons/lia";
 import { TbFolder } from "react-icons/tb";
 import { HiOutlineUserAdd } from "react-icons/hi";
 import { VscQuestion } from "react-icons/vsc";
-import logo from "../assets/images/company_logo.webp";
+import logo from "../assets/images/company_logo.png";
 import user from "../assets/images/user.webp";
 import TeamCard from "../components/TeamCard";
 import Dropdown from "../components/Dropdown";
@@ -44,8 +44,8 @@ const Sidebar = () => {
               className="w-10 ml-2 transition-transform duration-300 transform rounded-lg hover:scale-125"
             />
             <div className="flex-col hidden -space-y-1 sm:block">
-              <h2 className="text-sm">INC</h2>
-              <h2 className="text-sm font-semibold">InnovateHub</h2>
+              <h2 className="text-sm">Novah</h2>
+              <h2 className="text-sm font-semibold">ProdcutHub</h2>
             </div>
           </figure>
           <figure>
